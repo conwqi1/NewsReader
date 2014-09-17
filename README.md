@@ -1,14 +1,5 @@
-[Live Demo](http://aa-newsreader.herokuapp.com/)
+ NewsReader for rss feeds
 
-# Welcome to News Reader Demo
-
-* bundle install
-* rake db:migrate
-* rake db:seed
-
-Three feeds with their entries will be created upon running `rake
-db:seed`.
-
-Good luck. Have fun.
+implemented a news reader with BackBone and Ruby on Rails to collect your favourite rss news feeds 
 
 
