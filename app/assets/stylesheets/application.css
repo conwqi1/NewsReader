@@ -21,12 +21,27 @@
 
 
 .container {
-  height: 500px;
+  z-index:200;
+  position:relative;
+  height: 600px;
   width: 100%;
+
 }
 
 .inner {
+    font-size: 130%;
   float: right;
   height: 490px;
   width: 49%;
+}
+
+.backimage{
+    z-index:1;
+    position:absolute;
+    height: 800px;
+    width: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    background-image: url("newspaper.jpg");
+    background-size: cover;
 }
