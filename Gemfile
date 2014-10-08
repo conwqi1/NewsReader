@@ -22,7 +22,7 @@ group :development do
 end
 
 gem 'bcrypt-ruby', '~> 3.0.0'
-
+gem 'newrelic_rpm'
 group :development, :test do
   gem 'rspec-rails'
 end
